@@ -1,5 +1,5 @@
 ## Title: Compatibility
-## Interface: 100002
+## Interface: 100005
 ## Dependencies: Boolean, Caching, Array
 
 Compatibility.lua
