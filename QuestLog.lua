@@ -74,14 +74,6 @@ function Compatibility.QuestLog.retrieveIndexForQuestID(questID)
   end
 end
 
-function Compatibility.QuestLog.retrieveNumberOfQuestLogEntries()
-  if C_QuestLog.GetNumQuestLogEntries then
-    return C_QuestLog.GetNumQuestLogEntries()
-  else
-    return GetNumQuestLogEntries()
-  end
-end
-
 function Compatibility.QuestLog.isQuestFlaggedCompleted(questID)
   if C_QuestLog.IsQuestFlaggedCompleted then
     return C_QuestLog.IsQuestFlaggedCompleted(questID)
