@@ -32,6 +32,7 @@ function Compatibility.Container.receiveNumberOfSlotsOfContainer(containerIndex)
   end
 end
 
+-- TODO: Lower "u" (for consistency with other APIs)
 function Compatibility.Container.UseContainerItem(containerIndex, slotIndex, unitToken, reagentBankOpen)
   if _G.C_Container and C_Container.UseContainerItem then
     return C_Container.UseContainerItem(containerIndex, slotIndex, unitToken, reagentBankOpen)

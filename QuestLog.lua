@@ -90,6 +90,7 @@ function Compatibility.QuestLog.isQuestFlaggedCompleted(questID)
   end
 end
 
+-- TODO: Lower first letter (for consistency with other APIs)
 function Compatibility.QuestLog.SetAbandonQuest(questID)
 	if C_QuestLog.SetAbandonQuest then
     C_QuestLog.SetAbandonQuest(questID)
@@ -98,6 +99,7 @@ function Compatibility.QuestLog.SetAbandonQuest(questID)
   end
 end
 
+-- TODO: Lower first letter (for consistency with other APIs)
 function Compatibility.QuestLog.AbandonQuest()
 	if C_QuestLog.AbandonQuest then
     C_QuestLog.AbandonQuest()
