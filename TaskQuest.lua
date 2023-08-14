@@ -1,13 +1,23 @@
-Compatibility = Compatibility or {}
-Compatibility.TaskQuest = {}
-local _ = {}
+local addOnName = 'Compatibility'
+local version = '1.0.0'
 
-function Compatibility.TaskQuest.retrieveQuestsOnMap(mapID)
-  return Array.map(C_TaskQuest.GetQuestsForPlayerByMapID(mapID), _.normalizeQuest)
-end
+local Compatibility = Library.retrieve(addOnName, version)
 
-function _.normalizeQuest(quest)
-  quest.questID = quest.questId
-  quest.questId = nil
-  return quest
+if not Compatibility.TaskQuest then
+  local Array = Library.retrieve('Array', '^1.0.0')
+
+  --- @class Compatibility.TaskQuest
+  Compatibility.TaskQuest = {}
+
+  local _ = {}
+
+  function Compatibility.TaskQuest.retrieveQuestsOnMap(mapID)
+    return Array.map(C_TaskQuest.GetQuestsForPlayerByMapID(mapID), _.normalizeQuest)
+  end
+
+  function _.normalizeQuest(quest)
+    quest.questID = quest.questId
+    quest.questId = nil
+    return quest
+  end
 end

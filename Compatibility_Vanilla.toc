@@ -1,6 +1,6 @@
 ## Title: Compatibility
 ## Interface: 11403
-## Dependencies: Boolean, Caching, Array
+## Dependencies: Library, Boolean, Caching, Array
 ## Version: 1.0.0
 
 Compatibility.lua
