@@ -1,9 +1,13 @@
 {
   "name": "@sanjo-addons/compatibility",
+  "version": "2.0.0",
   "dependencies": {
-    "@sanjo-addons/library": "SanjoSolutions/LuaLibrary#v0.4.0",
-    "@sanjo-addons/boolean": "SanjoSolutions/LuaBoolean#v2.0.0",
-    "@sanjo-addons/caching": "SanjoSolutions/LuaCaching#v2.0.0",
-    "@sanjo-addons/array": "SanjoSolutions/LuaArray#v2.0.0"
+    "@sanjo-addons/library": "^0.5.0",
+    "@sanjo-addons/boolean": "^2.0.0",
+    "@sanjo-addons/caching": "^2.0.0",
+    "@sanjo-addons/array": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
