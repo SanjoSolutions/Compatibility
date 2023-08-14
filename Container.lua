@@ -1,5 +1,5 @@
 local addOnName = 'Compatibility'
-local version = '2.0.1'
+local version = '2.0.2'
 
 local Compatibility = Library.retrieve(addOnName, version)
 
