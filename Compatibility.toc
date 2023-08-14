@@ -1,10 +1,5 @@
 ## Title: Compatibility
 ## Interface: 100105
-## Version: 2.0.0
+## Version: 2.0.1
 
-Compatibility.lua
-QuestLog.lua
-GossipInfo.lua
-TaskQuest.lua
-Quests.lua
-Container.lua
+Compatibility.xml

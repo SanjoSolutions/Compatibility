@@ -1,5 +1,5 @@
 local addOnName = 'Compatibility'
-local version = '2.0.0'
+local version = '2.0.1'
 
 if _G.Library then
   if not Library.isRegistered(addOnName, version) then
