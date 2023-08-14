@@ -58,3 +58,7 @@ There seem to be different dialogs. Either based on "GossipInfo" or "Quests".
 * **Compatibility.TaskQuest.retrieveQuestsOnMap**: a function for retrieving the quests on a map.
 
 You can support me on [Patreon](https://www.patreon.com/addons_by_sanjo).
+
+## How to use
+
+Please see "[How to use Library](https://github.com/SanjoSolutions/LuaLibrary#how-to-use)" for how to use this library.

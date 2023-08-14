@@ -1,10 +1,10 @@
 local addOnName = 'Compatibility'
-local version = '1.0.0'
+local version = '2.0.0'
 
 local Compatibility = Library.retrieve(addOnName, version)
 
 if not Compatibility.TaskQuest then
-  local Array = Library.retrieve('Array', '^1.0.0')
+  local Array = Library.retrieve('Array', '^2.0.0')
 
   --- @class Compatibility.TaskQuest
   Compatibility.TaskQuest = {}
